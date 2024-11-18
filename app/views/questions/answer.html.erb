@@ -1,0 +1,5 @@
+<%# will display the question you ask your coach as well as the coach’s answer %>
+<h1 class="p-3">Coach's Answer</h1>
+<p class="p-3">You asked: <%= @question %></p>
+<p class="p-3">The coach says: <%= @response %></p>
+<%= link_to "Ask a new question", ask_path %>
